@@ -17,7 +17,6 @@ export default function Page({ params }) {
   return (
     <main>
       <h1>{proyecto.titulo}</h1>
-      <p>{proyecto.descripcion}</p>
       <Image width={500} height={500} className="rounded-lg w-96 h-auto mx-auto m-8"
         priority
         blurDataURL={proyecto.imagen}
@@ -25,6 +24,7 @@ export default function Page({ params }) {
         
         src={proyecto.imagen}
         alt={proyecto.titulo} /> 
+        <p>{proyecto.descripcion}</p>
     </main>
   )
 }

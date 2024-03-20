@@ -26,5 +26,12 @@ export const proyectsdata = [
     "titulo": "Maribel Tristan Psicologa",
     "slug": "landingpage-web-psicologa",
     "imagen": "/images/mtp-landp-b460dcc3.webp",
+    "descripcion": "landing page creada usando astroJs y Tailwindcss",
   },
+  {
+    "titulo": "Barberia Vintage",
+    "slug": "landingpage-web-barberia-vintage",
+    "imagen": "/images/barberiaimg-570f5463.webp",
+    "descripcion": "landing page creada usando html y css",
+  }
 ];

@@ -1,4 +1,3 @@
-import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Home() {
   return (
@@ -8,7 +7,6 @@ export default function Home() {
     <h2>
       bienvenido a mi portfolio
     </h2>
-    <ThemeToggle />
     </main>
   );
 }

@@ -3,8 +3,8 @@
 
 export default function Tagpage() {
     return (
-        <div>
+        <main>
             <h1>slug de tags</h1>
-        </div>
+        </main>
     )
 }

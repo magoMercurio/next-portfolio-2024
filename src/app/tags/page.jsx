@@ -2,8 +2,8 @@
 
 export default function TagsPage() {
   return (
-    <div>
+    <main>
       <h1>Tags Page</h1>
-    </div>
+    </main>
   ) 
 }

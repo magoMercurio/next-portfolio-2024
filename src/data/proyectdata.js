@@ -6,7 +6,7 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando Nexjs y Tailwindcss",
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    tags: [frontend, landingpage,nextjs, tailwindcss],
+    /* tags: [frontend, landingpage,nextjs, tailwindcss], */
   },
   {
     "titulo": "Raul Davila Psicologo V2",
@@ -15,7 +15,7 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando astro js y tailwindcss",
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    tags: [frontend, landingpage,nextjs, tailwindcss],
+    /* tags: [frontend, landingpage,nextjs, tailwindcss], */
   },
   {
     "titulo": "Raul Davila Psicologo v1",
@@ -24,7 +24,7 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando reactjs",
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    tags: [frontend, landingpage,nextjs, tailwindcss],
+    /* tags: [frontend, landingpage,nextjs, tailwindcss], */
   },
   {
     "titulo": "Maribel Tristan Psicologa",
@@ -33,7 +33,7 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando astroJs y Tailwindcss",
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    tags: [frontend, landingpage,nextjs, tailwindcss],
+    /* tags: [frontend, landingpage,nextjs, tailwindcss], */
   },
   {
     "titulo": "Barberia Vintage",
@@ -42,7 +42,7 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando html y css",
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    tags: [frontend, landingpage,nextjs, tailwindcss],
+    /* tags: [frontend, landingpage,nextjs, tailwindcss], */
 
   }
 ];

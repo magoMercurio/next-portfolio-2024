@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../ThemeToggle";
 import { LogoIcon } from "@/assets/icons/Icons";
 
 const navbarLinks = [

@@ -1,7 +1,7 @@
 /* import { Inter } from "next/font/google"; */
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { Header } from "../components/Header";
+import { Header } from "../components/ui/Header";
 
 export const metadata = {
   title: "porfolio 2024",

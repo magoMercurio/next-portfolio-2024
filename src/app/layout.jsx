@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className={` ${mono.variable}`} lang="es" suppressHydrationWarning>
+    <html className={` ${mono.className}`} lang="es" suppressHydrationWarning>
       <body className=" bg-[#eff1f5] dark:bg-[#1d1e21]" >
         <ThemeProvider attribute="class">     
           <Header />

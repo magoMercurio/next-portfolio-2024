@@ -8,11 +8,11 @@
     @apply scroll-smooth 
   }
   body {
-    @apply font-mono;
+    @apply font-mono max-w-6xl mx-auto flex flex-col min-h-screen pt-8 px-8
   }
 
   main {
-    @apply mx-auto max-w-7xl mt-36
+    @apply mx-auto max-w-7xl mt-36 
   }
   
   h1 {
@@ -32,7 +32,7 @@
 @layer components {
 
   .navLink {
-    @apply text-xl  transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
+    @apply  text-xl md:text-base transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
   }
 
   .btn-cta {
@@ -43,4 +43,7 @@
     @apply font-semibold text-base text-[#e19191] dark:text-green-200
   }
   
+  .section {
+    @apply bg-[#e6e9ef] dark:bg-[#303132] px-4 py-8  shadow-sm
+  }
 }

@@ -1,16 +1,16 @@
 
 
 export const metadata = {
-  title: "sobre mi - raul davila - web developer",
+  title: "raul davila - web developer",
   description: "creación de landing pages, web modernas con un diseño responsivo y un código limpiamente legible. Cuento con experiencia trabajando con SEO mejorando la visibilidad y el posicionamiento en los motores de búsqueda, optimizando las webs para obtener los mejores resultados en los motores de busqueda como Google",
 };
 
 export default function AboutPage() {
   return (
-    <main>
+    <main className="section max-w-[1020px]">
       <h1>{metadata.title}</h1>
 
-      <article className="flex flex-col  mx-8 mt-8">
+      <article className="flex flex-col  mx-2 mt-4">
         <p className=" mb-4">
           Más de dos años de experiencia en el desarrollo web. Mi enfoque se
           centra en la construcción de páginas web sólidas y atractivas,

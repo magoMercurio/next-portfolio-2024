@@ -32,7 +32,7 @@
 @layer components {
 
   .navLink {
-    @apply text-xl  transition delay-100 text-[#de7978] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
+    @apply text-xl  transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
   }
 
   .btn-cta {
@@ -40,7 +40,7 @@
   }
 
   .accent {
-    @apply font-semibold text-base text-[#de7978] dark:text-green-200
+    @apply font-semibold text-base text-[#e19191] dark:text-green-200
   }
   
 }

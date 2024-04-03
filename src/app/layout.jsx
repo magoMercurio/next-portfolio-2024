@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body className=" bg-[#f2f2f2] dark:bg-slate-800" >
+      <body className=" bg-[#eff1f5] dark:bg-[#1d1e21]" >
         <ThemeProvider attribute="class">     
           <Header />
           {children}

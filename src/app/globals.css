@@ -4,7 +4,11 @@
 
 @layer base {
   html {
-    font-family: monospace;
+    
+    @apply scroll-smooth 
+  }
+  body {
+    @apply font-mono;
   }
 
   main {
@@ -12,15 +16,15 @@
   }
   
   h1 {
-    @apply text-4xl font-bold
+    @apply text-2xl font-bold capitalize
   }
 
   h2 {
-    @apply text-2xl font-semibold text-pretty
+    @apply text-xl font-semibold text-pretty
   }
 
   p {
-    @apply text-lg text-pretty
+    @apply text-sm text-pretty
   }
 }
 
@@ -28,10 +32,15 @@
 @layer components {
 
   .navLink {
-    @apply text-xl transition delay-100 hover:text-yellow-300 hover:font-extrabold block py-2 px-3 rounded cursor-pointer
+    @apply text-xl  transition delay-100 text-[#de7978] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
   }
 
   .btn-cta {
     @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800
   }
+
+  .accent {
+    @apply font-semibold text-base text-[#de7978] dark:text-green-200
+  }
+  
 }

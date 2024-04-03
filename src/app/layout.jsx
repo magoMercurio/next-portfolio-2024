@@ -2,6 +2,13 @@
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Header } from "../components/ui/Header";
+import { Space_Mono } from 'next/font/google'
+
+const mono = Space_Mono({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap'
+})
 
 export const metadata = {
   title: "porfolio 2024",
@@ -10,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html className={` ${mono.variable}`} lang="es" suppressHydrationWarning>
       <body className=" bg-[#eff1f5] dark:bg-[#1d1e21]" >
         <ThemeProvider attribute="class">     
           <Header />

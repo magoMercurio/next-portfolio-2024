@@ -7,11 +7,11 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    fontFamily: {
-      'mono': ['Fira Code', 'monospace']
-    },
+    
     extend: {
-      
+      fontFamily: {
+        'mono': ['var--(font-mono)'],
+      }
     },
   },
   plugins: [],

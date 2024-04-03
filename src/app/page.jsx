@@ -3,7 +3,7 @@ import { Hero } from '@/components/ui/Hero'
 
 export default function Home() {
   return (
-    <main>
+    <main className='section'>
       <Hero />
     </main>
   );

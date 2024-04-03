@@ -12,11 +12,11 @@ export default function AboutPage() {
 
       <article className="flex flex-col  mx-2 mt-4">
         <p className=" mb-4">
-          Más de dos años de experiencia en el desarrollo web. Mi enfoque se
+          Más de dos años de experiencia en el Desarrollo Web Front End. Mi enfoque se
           centra en la construcción de páginas web sólidas y atractivas,
           empleando <span className="accent">HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS y
           AstroJS </span>
-          como mis herramientas principales. Creando soluciones
+          como herramientas principales. Creando soluciones
           web modernas y eficientes.
         </p>
         <p className=" mb-4">

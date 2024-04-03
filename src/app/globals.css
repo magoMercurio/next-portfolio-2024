@@ -3,24 +3,26 @@
 @tailwind utilities;
 
 @layer base {
+
+
   html {
     
     @apply scroll-smooth 
   }
   body {
-    @apply font-mono max-w-6xl mx-auto flex flex-col min-h-screen pt-8 px-8
+    @apply font-mono  max-w-6xl mx-auto flex flex-col min-h-screen pt-8 px-8
   }
 
   main {
-    @apply mx-auto max-w-7xl mt-36 
+    @apply mx-auto max-w-7xl mt-8
   }
   
   h1 {
-    @apply text-2xl font-bold capitalize
+    @apply text-lg font-bold capitalize
   }
 
   h2 {
-    @apply text-xl font-semibold text-pretty
+    @apply text-base font-semibold text-pretty
   }
 
   p {
@@ -32,7 +34,7 @@
 @layer components {
 
   .navLink {
-    @apply  text-xl md:text-base transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
+    @apply  text-sm transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
   }
 
   .btn-cta {
@@ -40,10 +42,10 @@
   }
 
   .accent {
-    @apply font-semibold text-base text-[#e19191] dark:text-green-200
+    @apply font-semibold text-[#e19191] dark:text-green-200
   }
   
   .section {
-    @apply bg-[#e6e9ef] dark:bg-[#303132] px-4 py-8  shadow-sm
+    @apply bg-[#e6e9ef] dark:bg-[#303132] px-4 py-8 shadow-sm
   }
 }

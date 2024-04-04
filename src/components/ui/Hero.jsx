@@ -1,11 +1,14 @@
 import Link from "next/link"
 import Image from "next/image"
+import { SocialLinks } from "@/components/SocialLinks"
 
 export function Hero() {
   return (
     <section className="hero flex flex-col">
-      <h1 className=" text-center md:text-left">Raul Davila Desarrollador Web <span className="hidden sm:inline">Front End</span><span className="accent">|</span></h1>
-      <article className="mt-8 flex flex-col sm:flex-row gap-8">
+      <h1 className=" text-center sm:text-left">
+        Raul Davila Desarrollador Web <span className="hidden sm:inline">Front End</span><span className="accent blink font-extrabold">|</span>
+      </h1>
+      <article className="mt-8 mb-4 flex flex-col sm:flex-row gap-8">
         <div className=" w-[160px] h-auto mx-auto">
           <Image src="/images/bwheroimg.webp" alt="heroimage"
             width={200}
@@ -19,6 +22,8 @@ export function Hero() {
           AstroJS </span>
           como herramientas principales.</p>
       </article>
+
+      <SocialLinks  />
       
     </section>
     )

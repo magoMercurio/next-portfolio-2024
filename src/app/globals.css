@@ -48,4 +48,15 @@
   .section {
     @apply bg-[#e6e9ef] dark:bg-[#303132] px-4 py-8 shadow-sm
   }
+  .blink {
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
 }

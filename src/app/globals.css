@@ -10,11 +10,11 @@
     @apply scroll-smooth 
   }
   body {
-    @apply max-w-6xl mx-auto flex flex-col min-h-screen pt-8 px-8
+    @apply max-w-6xl mx-auto flex flex-col min-h-screen pt-8 px-8 
   }
 
   main {
-    @apply mx-auto max-w-7xl mt-8
+    @apply  max-w-7xl mt-8
   }
   
   h1 {
@@ -43,6 +43,10 @@
 
   .accent {
     @apply font-semibold text-[#e19191] dark:text-green-200
+  }
+
+  .tagspill {
+    @apply bg-[#e19191] dark:bg-green-200 text-white dark:text-black text-sm px-2 rounded-full
   }
   
   .section {

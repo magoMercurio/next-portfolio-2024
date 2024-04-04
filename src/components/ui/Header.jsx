@@ -21,7 +21,7 @@ export function Header() {
       <nav className=" max-w-screen-6xl flex flex-row justify-center items-center">
         <div className=" w-screen md:w-full max-w-screen-6xl flex items-center justify-between">
           <Link href="/">
-            <article className="flex flex-row gap-2 ml-8 min-w-48">
+            <article className="flex flex-row gap-2 min-w-48">
               <LogoIcon className={` w-8 h-8 dark:text-yellow-400`} />
               <h2 className="text-2xl font-bold">Raul Dev</h2>
             </article>
@@ -38,7 +38,7 @@ export function Header() {
               </Link>
             ))}
           </div>
-          <div className="flex flex-row gap-4 mr-8">
+          <div className="flex flex-row gap-4">
             <ThemeToggle />
             <div
               className="md:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customDarkBg2"

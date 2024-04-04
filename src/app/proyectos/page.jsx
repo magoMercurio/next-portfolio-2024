@@ -3,20 +3,28 @@ import Link from "next/link";
 
 import { proyectsdata } from "@/data/proyectdata";
 
+export const metadata = {
+  title: "raul davila - proyectos",
+  description: "porfolio de proyectos web que he desarrollado",
+};
+
 export default function ProyectsPage() {
   return (
-    <main>
-      <h1>ProyectPage</h1>
-      <div className=" mt-16">
+    <main className="section">
+      <h1>{metadata.title}</h1>
+      <p>{metadata.description}</p>
+      <article className=" mt-8">
         {proyectsdata.map((proyect) => (
           <div key={proyect.titulo}>
             <h2>{proyect.titulo}</h2>
             <p>{proyect.descripcion}</p>
-            <Link href={`/proyectos/${proyect.slug}`}>
+            <Link href={`/proyectos/${proyect.slug}`}
+              className="w-fit h-fit"
+            >
               <Image
-                width={500}
-                height={500}
-                className="rounded-lg w-96 h-auto mx-auto m-8"
+                width={200}
+                height={200}
+                className="object-contain"
                 priority
                 blurDataURL={proyect.imagen}
                 placeholder="blur"
@@ -24,9 +32,18 @@ export default function ProyectsPage() {
                 alt={proyect.titulo}
               />
             </Link>
+            <ul className="inline-flex flex-wrap gap-2">
+              {
+                proyect.tags.map((tag) => (
+                  <li key={tag}
+                    className="tagspill"
+                  >{tag}</li>
+                ))
+              }
+            </ul>
           </div>
         ))}
-      </div>
+      </article>
     </main>
   );
 }

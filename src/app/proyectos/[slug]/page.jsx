@@ -25,6 +25,15 @@ export default function Page({ params }) {
         src={proyecto.imagen}
         alt={proyecto.titulo} /> 
         <p>{proyecto.descripcion}</p>
+        <ul className="inline-flex gap-2">
+              {
+                proyecto.tags.map((tag) => (
+                  <li key={tag}
+                    className="tagspill"
+                  >{tag}</li>
+                ))
+              }
+            </ul>
     </main>
   )
 }

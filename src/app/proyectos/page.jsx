@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Card } from "@/components/Card";
 
 import { proyectsdata } from "@/data/proyectdata";
 
@@ -13,36 +14,12 @@ export default function ProyectsPage() {
     <main className="section">
       <h1>{metadata.title}</h1>
       <p>{metadata.description}</p>
-      <article className=" mt-8">
-        {proyectsdata.map((proyect) => (
-          <div key={proyect.titulo}>
-            <h2>{proyect.titulo}</h2>
-            <p>{proyect.descripcion}</p>
-            <Link href={`/proyectos/${proyect.slug}`}
-              className="w-fit h-fit"
-            >
-              <Image
-                width={200}
-                height={200}
-                className="object-contain"
-                priority
-                blurDataURL={proyect.imagen}
-                placeholder="blur"
-                src={proyect.imagen}
-                alt={proyect.titulo}
-              />
-            </Link>
-            <ul className="inline-flex flex-wrap gap-2">
-              {
-                proyect.tags.map((tag) => (
-                  <li key={tag}
-                    className="tagspill"
-                  >{tag}</li>
-                ))
-              }
-            </ul>
-          </div>
-        ))}
+      <article className=" mt-8 flex flex-col">
+      {proyectsdata.map((proyect) => {
+          return (
+            <Card key={proyect.titulo} className={`mt-8`} proyect={proyect} />
+          );
+        })}
       </article>
     </main>
   );

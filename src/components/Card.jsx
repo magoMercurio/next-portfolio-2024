@@ -22,9 +22,10 @@ export const Card = ({ proyect, className }) => {
         />
       </Link>
       <div className="mx-4 mt-4">
+        <div>
         <h3 className="accent">{titulo}</h3>
         <p>{descripcion}</p>
-      </div>
+        </div>
       <ul className="flex flex-wrap mt-4 gap-2">
         {tags.map((tag) => (
           <li key={tag} className="tagspill">
@@ -32,6 +33,7 @@ export const Card = ({ proyect, className }) => {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 };

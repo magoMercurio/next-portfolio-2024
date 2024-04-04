@@ -7,6 +7,7 @@ export const proyectsdata = [
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
+    pin: true,
   },
   {
     "titulo": "Raul Davila Psicologo V2",
@@ -16,6 +17,7 @@ export const proyectsdata = [
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
+    pin: true,
   },
   {
     "titulo": "Raul Davila Psicologo v1",
@@ -25,6 +27,7 @@ export const proyectsdata = [
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
+    pin: false,
   },
   {
     "titulo": "Maribel Tristan Psicologa",
@@ -34,6 +37,7 @@ export const proyectsdata = [
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
+    pin: true,
   },
   {
     "titulo": "Barberia Vintage",
@@ -43,6 +47,6 @@ export const proyectsdata = [
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
-
+    pin: false,
   }
 ];

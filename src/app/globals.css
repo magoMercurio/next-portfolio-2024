@@ -22,7 +22,7 @@
   }
 
   h2 {
-    @apply text-base font-semibold text-pretty
+    @apply text-base font-semibold text-pretty capitalize
   }
 
   p {

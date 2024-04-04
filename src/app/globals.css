@@ -6,7 +6,6 @@
 
 
   html {
-    
     @apply scroll-smooth 
   }
   body {
@@ -18,10 +17,14 @@
   }
   
   h1 {
-    @apply text-lg font-bold capitalize
+    @apply text-xl font-bold capitalize
   }
 
   h2 {
+    @apply text-lg font-semibold text-pretty capitalize
+  }
+
+  h3 {
     @apply text-base font-semibold text-pretty capitalize
   }
 
@@ -37,6 +40,10 @@
     @apply  text-sm transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
   }
 
+  .links {
+    @apply  text-sm transition delay-100 underline decoration-1 hover:decoration-2 underline-offset-4 hover:decoration-[#e19191] dark:hover:decoration-green-200 block py-2 px-3 cursor-pointer
+  }
+
   .btn-cta {
     @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800
   }
@@ -46,7 +53,7 @@
   }
 
   .tagspill {
-    @apply bg-[#e19191] dark:bg-green-200 text-white dark:text-black text-sm px-2 rounded-full
+    @apply flex items-center h-4 bg-[#e19191] dark:bg-green-200 text-white dark:text-black text-xs px-2 rounded-full
   }
   
   .section {

@@ -1,38 +1,37 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 
 export const Card = ({ proyect, className }) => {
+  const { titulo, descripcion, imagen, slug, tags } = proyect;
 
-  const  { titulo, descripcion, imagen, slug, tags } =  proyect
-
-    return (
-        <div className={ `card ${ className }` }>
-            <h3>{titulo}</h3>
-              <p>{descripcion}</p>
-              <Link href={`/proyectos/${slug}`}
-              className="w-fit h-fit"
-            >
-              <Image
-                width={200}
-                height={200}
-                className="object-contain"
-                priority
-                blurDataURL={imagen}
-                placeholder="blur"
-                src={imagen}
-                alt={titulo}
-              />
-            </Link>
-            <ul className="inline-flex flex-wrap gap-2">
-              {
-                tags.map((tag) => (
-                  <li key={tag}
-                    className="tagspill"
-                  >{tag}</li>
-                ))
-              }
-            </ul>
-          </div>
-        
-    )
-}
+  return (
+    <div className={`card ${className} flex flex-col sm:flex-row max-w-5xl `}>
+      <Link
+        href={`/proyectos/${slug}`}
+        className=" flex mx-auto sm:mx-0 items-center w-fit h-fit "
+      >
+        <Image
+          width={150}
+          height={150}
+          className="object-contain w-36 h-24"
+          priority
+          blurDataURL={imagen}
+          placeholder="blur"
+          src={imagen}
+          alt={titulo}
+        />
+      </Link>
+      <div className="mx-4 mt-4">
+        <h3 className="accent">{titulo}</h3>
+        <p>{descripcion}</p>
+      </div>
+      <ul className="flex flex-wrap mt-4 gap-2">
+        {tags.map((tag) => (
+          <li key={tag} className="tagspill">
+            {tag}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};

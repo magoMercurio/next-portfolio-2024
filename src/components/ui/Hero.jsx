@@ -8,7 +8,7 @@ export function Hero() {
       <h1 className=" text-center sm:text-left">
         Raul Davila Desarrollador Web <span className="hidden sm:inline">Front End</span><span className="accent blink font-extrabold">|</span>
       </h1>
-      <article className="mt-8 mb-4 flex flex-col sm:flex-row gap-4">
+      <article className="mt-8  flex flex-col sm:flex-row gap-4">
         <Image src="/images/bwheroimg.webp" alt="heroimage"
             width={160}
             height={160}

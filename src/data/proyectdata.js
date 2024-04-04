@@ -37,7 +37,7 @@ export const proyectsdata = [
     "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
-    pin: true,
+    pin: true,  
   },
   {
     "titulo": "Barberia Vintage",

@@ -14,7 +14,7 @@ export const proyectsdata = [
     "slug": "landingpage-web-blog-psicologo-v2",
     "imagen": "/images/rpsicologv2-d8e6c0d2.webp",
     "descripcion": "landing page creada usando astro js y tailwindcss",
-    "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "link": "https://rauldavilapsicologo.com",
     "link_github": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
     pin: true,

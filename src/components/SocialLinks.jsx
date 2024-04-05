@@ -29,7 +29,6 @@ const links = [
 ];
 
 export const SocialLinks = () => {
-
   return (
     <div className="flex flex-wrap items-end gap-x-4 mt-2">
       <ul className="flex flex-wrap flex-1 items-center gap-x-2 sm:flex-initial">

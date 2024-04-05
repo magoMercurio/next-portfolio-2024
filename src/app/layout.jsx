@@ -3,13 +3,13 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Header } from "../components/ui/Header";
 import { Footer } from "../components/ui/Footer";
-import { Space_Mono } from 'next/font/google'
+import { Space_Mono } from "next/font/google";
 
 const mono = Space_Mono({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  display: 'swap'
-})
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "porfolio 2024",
@@ -19,8 +19,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className={` ${mono.className}`} lang="es" suppressHydrationWarning>
-      <body className=" bg-[#eff1f5] dark:bg-[#1d1e21]" >
-        <ThemeProvider attribute="class">     
+      <body className=" bg-[#eff1f5] dark:bg-[#1d1e21]">
+        <ThemeProvider attribute="class">
           <Header />
           {children}
           <Footer />

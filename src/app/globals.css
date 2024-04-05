@@ -4,7 +4,6 @@
 
 @layer base {
 
-
   html {
     @apply scroll-smooth 
   }
@@ -63,6 +62,10 @@
   .section {
     @apply bg-[#e6e9ef] dark:bg-[#303132] px-4 py-8 shadow-sm
   }
+
+
+  /* ANIMATIONS */
+
   .blink {
     animation-name: blink;
     animation-duration: 1.5s;

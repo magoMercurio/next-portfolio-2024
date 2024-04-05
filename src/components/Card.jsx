@@ -23,16 +23,16 @@ export const Card = ({ proyect, className }) => {
       </Link>
       <div className="mx-4 mt-4">
         <div>
-        <h3 className="accent text-center sm:text-left">{titulo}</h3>
-        <p className="text-center sm:text-left">{descripcion}</p>
+          <h3 className="accent text-center sm:text-left">{titulo}</h3>
+          <p className="text-center sm:text-left">{descripcion}</p>
         </div>
-      <ul className="flex flex-row flex-wrap justify-center sm:justify-start mt-4 gap-2">
-        {tags.map((tag) => (
-          <li key={tag} className="tagspill">
-            {tag}
-          </li>
-        ))}
-      </ul>
+        <ul className="flex flex-row flex-wrap justify-center sm:justify-start mt-4 gap-2">
+          {tags.map((tag) => (
+            <li key={tag} className="tagspill">
+              {tag}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

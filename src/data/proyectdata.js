@@ -6,7 +6,8 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando Nexjs y Tailwindcss",
     "link": "https://vimextour.com/",
     "link_github": "/proyectos",
-    tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
+    tags: ['frontend', 'landingpage'],
+    skills: ['nextjs', 'tailwindcss'],
     pin: true,
   },
   {
@@ -16,7 +17,8 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando astro js y tailwindcss",
     "link": "https://rauldavilapsicologo.com",
     "link_github": "/proyectos",
-    tags: ['frontend', 'landingpage', 'nextjs', 'tailwindcss'],
+    tags: ['frontend', 'landingpage'],
+    skills: ['astrojs', 'tailwindcss'],
     pin: true,
   },
   {
@@ -26,7 +28,8 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando reactjs",
     "link": "https://raulpsicologo.netlify.app/",
     "link_github": "https://github.com/magoMercurio/raul-psicologo",
-    tags: ['frontend', 'landingpage', 'reactjs', 'tailwindcss'],
+    tags: ['frontend', 'landingpage'],
+    skills: ['reactjs', 'tailwindcss'],
     pin: false,
   },
   {
@@ -36,7 +39,8 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando astroJs y Tailwindcss",
     "link": "https://terapiaconmaribel.com/",
     "link_github": "/proyectos",
-    tags: ['frontend', 'landingpage', 'astrojs', 'tailwindcss'],
+    tags: ['frontend', 'landingpage'],
+    skills: ['astrojs', 'tailwindcss'],
     pin: true,  
   },
   {
@@ -46,7 +50,9 @@ export const proyectsdata = [
     "descripcion": "landing page creada usando html y css",
     "link": "https://magomercurio.github.io/web-barberia/",
     "link_github": "https://github.com/magoMercurio/web-barberia",
-    tags: ['frontend', 'landingpage', 'html/css'],
+    tags: ['frontend', 'landingpage'],
+    skills: ['html/css'],
+
     pin: false,
   },
   {
@@ -56,7 +62,8 @@ export const proyectsdata = [
     "descripcion": "Dashboard simulando una aplicacion bancaria",
     "link": "https://smart-bank2023.netlify.app/",
     "link_github": "https://github.com/magoMercurio/styled-cpmponent-vite/blob/main/package.json",
-    tags: ['frontend', 'landingpage', 'reactjs', 'styled component'],
+    tags: ['frontend', 'landingpage'],
+    skills: ['reactjs', 'styled component'],
     pin: false,
   }
 ];

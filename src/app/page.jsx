@@ -6,7 +6,7 @@ import { ProyectSection } from '@/components/ui/ProyectSection'
 
 export default function Home() {
   return (
-    <main className='section'>
+    <main className='section mb-8'>
       <Hero />
       <ProyectSection />
     </main>

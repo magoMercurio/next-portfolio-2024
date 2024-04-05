@@ -2,6 +2,7 @@
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Header } from "../components/ui/Header";
+import { Footer } from "../components/ui/Footer";
 import { Space_Mono } from 'next/font/google'
 
 const mono = Space_Mono({
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class">     
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function ProyectsPage() {
   return (
-    <main className="section">
+    <main className="section mb-8">
       <h1>{metadata.title}</h1>
       <p>{metadata.description}</p>
       <article className=" mt-8 flex flex-col">

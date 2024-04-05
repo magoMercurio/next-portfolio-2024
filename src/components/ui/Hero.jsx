@@ -31,7 +31,7 @@ export function Hero() {
           <p className="mb-2">
             Especializado en la creación de{" "}
             <span className="accent capitalize">landing pages</span> y{" "}
-            <span className="accent capitalize">webs modernas</span>.
+            <span className="accent capitalize">paginas webs modernas</span>.
             Experiencia trabajando con <span className="accent">SEO</span>,
             optimizando las webs para obtener los mejores resultados en los
             motores de busqueda como Google.

@@ -35,16 +35,28 @@
 
 @layer components {
 
+  /* COLORS ******************* */
+
+  .colors {
+  @apply  text-[#e19191] dark:text-green-200
+  }
+
+  .decorationColors {
+    @apply decoration-[#e19191] dark:hover:decoration-green-200
+  }
+
+  /* COMPONENTS CSS */
+
   .navLink {
-    @apply  text-sm transition delay-100 text-[#e19191] dark:text-green-200  hover:underline block py-2 px-3 cursor-pointer
+    @apply  text-sm transition delay-100 colors hover:underline block py-2 px-3 cursor-pointer
   }
 
   .footerLink {
-    @apply  text-xs transition delay-75 underline decoration-1  underline-offset-4 hover:decoration-[#e19191] dark:hover:decoration-green-200 block py-2 px-1 cursor-pointer
+    @apply  text-xs transition delay-75 underline decoration-1  underline-offset-4 hover:decorationColors block py-2 px-1 cursor-pointer
   }
 
   .links {
-    @apply  text-sm transition delay-100 underline decoration-1 hover:decoration-2 underline-offset-4 hover:decoration-[#e19191] dark:hover:decoration-green-200 block py-2 px-3 cursor-pointer
+    @apply  text-sm transition delay-75 underline decoration-1 hover:decoration-2 underline-offset-4 hover:decorationColors block py-2 px-3 cursor-pointer
   }
 
   .btn-cta {
@@ -52,7 +64,7 @@
   }
 
   .accent {
-    @apply font-semibold text-[#e19191] dark:text-green-200
+    @apply font-semibold colors
   }
 
   .tagspill {

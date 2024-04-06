@@ -15,19 +15,20 @@ export default function Page({ params }) {
     (proyecto) => proyecto.slug === params.slug
   );
   return (
-    <main>
+    <main className="grid grid-cols-1 gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8">
+      <article className="section mr-">
       <h1>{proyecto.titulo}</h1>
       <Image
-        width={500}
-        height={500}
-        className="rounded-lg w-96 h-auto mx-auto m-8"
+        width={760}
+        height={380}
+        className="rounded-md w-[560px] h-auto mx-auto m-8"
         priority
         blurDataURL={proyecto.imagen}
         placeholder="blur"
         src={proyecto.imagen}
         alt={proyecto.titulo}
       />
-      <p>{proyecto.descripcion}</p>
+      <section>
       <ul className="inline-flex gap-2">
         {proyecto.tags.map((tag) => (
           <li key={tag} className="tagspill">
@@ -35,6 +36,19 @@ export default function Page({ params }) {
           </li>
         ))}
       </ul>
+      </section>
+      
+        <p>{proyecto.descripcion}</p>
+      </article>
+
+        {/* -------- ASIDE --------- */}
+
+      <aside className="sm:w-1/4">
+        <h1>
+          ------aqui va el aside -------
+        </h1>
+      </aside>
+      
     </main>
   );
 }

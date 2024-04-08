@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { proyectsdata } from "@/data/proyectdata";
 import { Sidebar } from "@/components/ui/Sidebar";
@@ -16,8 +17,8 @@ export default function Page({ params }) {
     (proyecto) => proyecto.slug === params.slug
   );
   return (
-    <main className="grid grid-cols-1 gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8">
-      <article className="section mr-">
+    <main className="grid grid-cols-1 gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8 mb-8">
+      <article className="section">
         <h1>{proyecto.titulo}</h1>
         <Image
           width={760}
@@ -49,7 +50,16 @@ export default function Page({ params }) {
             ))}
           </ul>
         </article>
-        <hr className="my-8"/>
+        <article className="flex flex-col sm:flex-row mb-1">
+          <aside className="sm:mr-4 mb-1 bgProyect">website</aside>
+          <Link href={proyecto.link} target="_blank" className="links p-0">{proyecto.link} </Link>
+        </article>
+        <article className="flex flex-col sm:flex-row mb-1">
+          <aside className="sm:mr-4 mb-1 bgProyect">website</aside>
+          <Link href={proyecto.link_github} rel={`noopener noreferrer`} target="_blank" className="links p-0">{proyecto.link_github} </Link>
+        </article>
+
+        <hr className="my-4 borderColors border-dashed"/>
 
         <p>{proyecto.descripcion}</p>
       </article>

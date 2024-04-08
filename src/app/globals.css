@@ -45,6 +45,14 @@
     @apply decoration-[#e19191] dark:hover:decoration-green-200
   }
 
+  .borderColors {
+    @apply border-[#e19191] dark:border-green-200
+  }
+
+  .bgColors {
+    @apply bg-[#e19191] dark:bg-green-200
+  }
+
   /* COMPONENTS CSS */
 
   .navLink {
@@ -68,7 +76,7 @@
   }
 
   .tagspill {
-    @apply flex items-center h-4 bg-[#e19191] dark:bg-green-200 text-white dark:text-black text-xs px-2 rounded-sm
+    @apply flex items-center h-4 bgColors text-white dark:text-black text-xs px-2 rounded-sm
   }
   
   .section {
@@ -80,7 +88,7 @@
   }
 
   .bgSkills {
-    @apply flex items-center h-4 text-white dark:text-black text-xs px-2 bg-lime-500 dark:bg-lime-200
+    @apply flex items-center h-4 text-white dark:text-black text-xs px-2 bg-orange-400 dark:bg-lime-200
   }
 
   /* ANIMATIONS */

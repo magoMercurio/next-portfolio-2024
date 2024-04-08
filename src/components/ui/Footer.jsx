@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <footer className="mt-auto mb-8 flex flex-row items-center justify-between">
       <p className="my-auto">
-        <span>Hecho con ❤️</span> {new Date().getFullYear()}
+        <span>Copyright &copy; </span> {new Date().getFullYear()} Raul Davila
       </p>
       <SocialLinks />
       <nav className="flex flex-row my-auto gap-x-2 sm:gap-x-0 sm:divide-x">

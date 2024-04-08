@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { proyectsdata } from "@/data/proyectdata";
+import { Sidebar } from "@/components/ui/Sidebar";
 
 export function generateStaticParams() {
   return proyectsdata.map((proyecto) => ({
@@ -55,9 +56,8 @@ export default function Page({ params }) {
 
       {/* -------- ASIDE --------- */}
 
-      <aside className="sm:w-1/4">
-        <h1>------aqui va el aside -------</h1>
-      </aside>
+      <Sidebar />
+      
     </main>
   );
 }

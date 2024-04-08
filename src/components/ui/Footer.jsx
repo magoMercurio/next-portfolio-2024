@@ -10,10 +10,9 @@ const navbarLinks = [
 export const Footer = () => {
   return (
     <footer className="mt-auto mb-8 flex flex-row items-center justify-between">
-      <p className="my-auto">
+      <p className="my-auto text-xs">
         <span>Copyright &copy; </span> {new Date().getFullYear()} Raul Davila
       </p>
-      <SocialLinks />
       <nav className="flex flex-row my-auto gap-x-2 sm:gap-x-0 sm:divide-x">
         {navbarLinks.map(({ href, label, ariaLabel }) => (
           <p key={label} className="">

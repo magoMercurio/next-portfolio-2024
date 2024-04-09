@@ -10,7 +10,7 @@ const navbarLinks = [
   { label: "inicio", href: "/", ariaLabel: "inicio" },
   { label: "sobre mi", href: "/about", ariaLabel: "sobre mi" },
   { label: "proyectos", href: "/proyectos", ariaLabel: "proyectos" },
-  { label: "tags", href: "/tags", ariaLabel: "tags" },
+  /* { label: "tags", href: "/tags", ariaLabel: "tags" }, */
 ];
 
 export function Header() {

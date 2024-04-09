@@ -8,17 +8,17 @@ import {
 const links = [
   {
     name: "Github",
-    link: "/",
+    link: "https://github.com/magoMercurio",
     icon: <GithubIcon className="w-5 h-5" />,
   },
   {
     name: "Linkedin",
-    link: "/",
+    link: "https://www.linkedin.com/in/rauldavilaf",
     icon: <LinkedinIcon className="w-5 h-5" />,
   },
   {
     name: "Mail",
-    link: "/",
+    link: "mailto:rauldev.contacto@gmail.com",
     icon: <MailIcon className="w-5 h-5" />,
   },
   {

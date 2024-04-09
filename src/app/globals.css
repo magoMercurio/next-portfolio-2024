@@ -38,25 +38,25 @@
   /* COLORS ******************* */
 
   .colors {
-  @apply  text-[#e19191] dark:text-green-200
+  @apply  text-[#4d71db] dark:text-green-200
   }
 
   .decorationColors {
-    @apply decoration-[#e19191] dark:hover:decoration-green-200
+    @apply decoration-[#4d71db] dark:hover:decoration-green-200
   }
 
   .borderColors {
-    @apply border-[#e19191] dark:border-green-200
+    @apply border-[#4d71db] dark:border-green-200
   }
 
   .bgColors {
-    @apply bg-[#e19191] dark:bg-green-200
+    @apply bg-[#4d71db] dark:bg-green-200
   }
 
   /* COMPONENTS CSS */
 
   .navLink {
-    @apply  text-sm transition delay-100 colors hover:underline block py-2 px-3 cursor-pointer
+    @apply  text-sm font-semibold transition delay-75 colors hover:underline block py-2 px-3 cursor-pointer
   }
 
   .footerLink {
@@ -67,9 +67,9 @@
     @apply  text-sm transition delay-75 underline decoration-1 hover:decoration-2 underline-offset-4 hover:decorationColors block py-2 px-3 cursor-pointer
   }
 
-  .btn-cta {
+  /* .btn-cta {
     @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800
-  }
+  } */
 
   .accent {
     @apply font-semibold colors

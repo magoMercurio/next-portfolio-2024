@@ -26,7 +26,7 @@ export function Header() {
               <h2 className="text-2xl font-bold">Raul Dev</h2>
             </article>
           </Link>
-          <div className="hidden md:flex lg:items-center pb-2 gap-8  mr-4">
+          <div className="hidden md:flex lg:items-center justify-start pb-2 gap-2  mr-4">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <Link
                 className="navLink"

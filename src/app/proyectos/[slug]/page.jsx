@@ -52,14 +52,23 @@ export default function Page({ params }) {
         </article>
         <article className="flex flex-col sm:flex-row mb-1">
           <aside className="sm:mr-4 mb-1 bgProyect">website</aside>
-          <Link href={proyecto.link} target="_blank" className="links p-0">{proyecto.link} </Link>
+          <Link href={proyecto.link} target="_blank" className="links p-0">
+            {proyecto.link}{" "}
+          </Link>
         </article>
         <article className="flex flex-col sm:flex-row mb-1">
           <aside className="sm:mr-4 mb-1 bgProyect">github</aside>
-          <Link href={proyecto.link_github} rel={`noopener noreferrer`} target="_blank" className="links p-0">{proyecto.link_github} </Link>
+          <Link
+            href={proyecto.link_github}
+            rel={`noopener noreferrer`}
+            target="_blank"
+            className="links p-0"
+          >
+            {proyecto.link_github}{" "}
+          </Link>
         </article>
 
-        <hr className="my-4 borderColors border-dashed"/>
+        <hr className="my-4 borderColors border-dashed" />
 
         <p>{proyecto.descripcion}</p>
       </article>
@@ -67,7 +76,6 @@ export default function Page({ params }) {
       {/* -------- ASIDE --------- */}
 
       <Sidebar />
-      
     </main>
   );
 }

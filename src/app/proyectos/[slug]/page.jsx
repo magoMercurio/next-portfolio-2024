@@ -55,7 +55,7 @@ export default function Page({ params }) {
           <Link href={proyecto.link} target="_blank" className="links p-0">{proyecto.link} </Link>
         </article>
         <article className="flex flex-col sm:flex-row mb-1">
-          <aside className="sm:mr-4 mb-1 bgProyect">website</aside>
+          <aside className="sm:mr-4 mb-1 bgProyect">github</aside>
           <Link href={proyecto.link_github} rel={`noopener noreferrer`} target="_blank" className="links p-0">{proyecto.link_github} </Link>
         </article>
 

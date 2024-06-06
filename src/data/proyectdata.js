@@ -1,5 +1,16 @@
 export const proyectsdata = [
   {
+    "titulo": "Test de Ansiedad de Beck",
+    "slug": "test-ansiedad-beck",
+    "imagen": "/images/test-ansiedad-beck.webp",
+    "descripcion": "El Test de Ansiedad de Beck (BAI) es uno de los instrumentos utilizados en la evaluación de la ansiedad.",
+    "link": "https://react-beck-ansiedad-test.vercel.app/",
+    "link_github": "https://github.com/magoMercurio/react-beck-ansiedad",
+    tags: ['frontend', 'appweb'],
+    skills: ['reactjs', 'tailwindcss', 'nextui'],
+    pin: true,
+  },
+  {
     "titulo": "VimexTour Agencia de Viajes",
     "slug": "landingpage-web-agencia-viajes",
     "imagen": "/images/vimexproyect.webp",

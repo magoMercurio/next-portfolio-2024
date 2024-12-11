@@ -1,5 +1,16 @@
 export const proyectsdata = [
   {
+    "titulo": "Feria Corporativo",
+    "slug": "web-abogado-i18n",
+    "imagen": "/images/corpabogado.webp",
+    "descripcion": "Pagina web para Feria Corporativo, un negocio de servicios legales, utilizando Astro.js y Tailwind CSS. La página cuenta con diseño responsivo, asi como tambien la implementacion de internacionalizacion (I18N) con version en ingles y en español.",
+    "link": "https://feriacorp.com",
+    "link_github": "https://github.com/magoMercurio",
+    tags: ['frontend', 'pagina web'],
+    skills: ['astrojs', 'tailwindcss', 'I18N'],
+    pin: true,
+  },
+  {
     "titulo": "Test de Ansiedad de Beck",
     "slug": "test-ansiedad-beck",
     "imagen": "/images/test-ansiedad-beck.webp",
@@ -8,7 +19,7 @@ export const proyectsdata = [
     "link_github": "https://github.com/magoMercurio/react-beck-ansiedad",
     tags: ['frontend', 'appweb'],
     skills: ['reactjs', 'tailwindcss', 'nextui'],
-    pin: true,
+    pin: false,
   },
   {
     "titulo": "VimexTour Agencia de Viajes",
